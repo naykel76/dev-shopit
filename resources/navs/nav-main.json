@@ -1,20 +1,16 @@
 {
-  "main": {
-    "links": [
-      {
-        "name": "Home",
-        "route_name": "home",
-        "exclude_route": true
-      }
-    ]
-  },
-  "footer": {
-    "links": [
-      {
-        "name": "Home",
-        "route_name": "home",
-        "exclude_route": true
-      }
-    ]
-  }
+    "main": {
+        "links": [
+            {
+                "name": "Home",
+                "route_name": "home",
+                "exclude_route": true
+            },
+            {
+                "name": "Products",
+                "route_name": "products.index",
+                "exclude_route": true
+            }
+        ]
+    }
 }

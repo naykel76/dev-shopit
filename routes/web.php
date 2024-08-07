@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Naykel\Gotime\RouteBuilder;
 
 /*
 |--------------------------------------------------------------------------
@@ -11,11 +10,9 @@ use Naykel\Gotime\RouteBuilder;
 */
 
 Route::get('/', function () {
+    // Adding an item to the cart
     return view('pages.home');
 })->name('home');
-
-(new RouteBuilder('nav-main'))->create();
-
 
 /*
 |--------------------------------------------------------------------------
